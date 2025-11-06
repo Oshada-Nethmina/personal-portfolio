@@ -30,7 +30,7 @@ body{
     left: 0;
     width: 100%;
     padding: 2rem 9%;
-    background-color: yellowgreen;
+    background-color: transparent;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -51,4 +51,10 @@ body{
 .navbar a:hover,
 .navbar a.active{
     color: var(--main-color);
+}
+#menu-icon{
+    font-size: 3rem;
+    color: var(--text-color);
+    cursor: pointer;
+    display: none;
 }
